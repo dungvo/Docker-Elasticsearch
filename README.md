@@ -1,6 +1,13 @@
 Docker Elasticsearch
 ====================
 
+## Build Image
+```
+git clone https://github.com/dungvo/Docker-Elasticsearch.git
+cd Docker-Elasticsearch
+docker build -t dungvo/elasticsearch .
+```
+
 ## Usage
 ```
 docker run -d \
